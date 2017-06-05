@@ -1,0 +1,275 @@
+{
+	"userdetailedlists": [{
+		"id": 1,
+		"firstname": "Ingelbert",
+		"lastname": "Stallen",
+		"job": "Associate Professor",
+		"phone": "86-(368)835-0888",
+		"address": "6 Sauthoff Junction",
+		"user_avatar": "https://robohash.org/etquiquibusdam.png?size=96x96&set=set1"
+	},
+		{
+			"id": 2,
+			"firstname": "Otes",
+			"lastname": "Diloway",
+			"job": "Compensation Analyst",
+			"phone": "1-(405)860-7718",
+			"address": "83 Canary Trail",
+			"user_avatar": "https://robohash.org/delenitietperspiciatis.png?size=96x96&set=set1"
+		},
+		{
+			"id": 3,
+			"firstname": "Mara",
+			"lastname": "Harrap",
+			"job": "Operator",
+			"phone": "81-(424)501-3129",
+			"address": "4 Sachs Center",
+			"user_avatar": "https://robohash.org/evenietquidemmaxime.png?size=96x96&set=set1"
+		},
+		{
+			"id": 4,
+			"firstname": "Wilfrid",
+			"lastname": "Hindhaugh",
+			"job": "Budget/Accounting Analyst III",
+			"phone": "7-(962)963-9837",
+			"address": "81 Marquette Place",
+			"user_avatar": "https://robohash.org/corruptiettemporibus.png?size=96x96&set=set1"
+		},
+		{
+			"id": 5,
+			"firstname": "Robby",
+			"lastname": "Baudichon",
+			"job": "Database Administrator III",
+			"phone": "57-(321)294-6494",
+			"address": "00705 Graceland Way",
+			"user_avatar": "https://robohash.org/similiquecumqueaut.png?size=96x96&set=set1"
+		},
+		{
+			"id": 6,
+			"firstname": "Jude",
+			"lastname": "Orsay",
+			"job": "VP Sales",
+			"phone": "86-(416)562-0586",
+			"address": "55 Anhalt Lane",
+			"user_avatar": "https://robohash.org/magniquisquia.png?size=96x96&set=set1"
+		},
+		{
+			"id": 7,
+			"firstname": "Cara",
+			"lastname": "Lashford",
+			"job": "Analyst Programmer",
+			"phone": "86-(495)879-4632",
+			"address": "52773 Hansons Circle",
+			"user_avatar": "https://robohash.org/utnemoet.png?size=96x96&set=set1"
+		},
+		{
+			"id": 8,
+			"firstname": "Zak",
+			"lastname": "Keelan",
+			"job": "Community Outreach Specialist",
+			"phone": "62-(927)920-5212",
+			"address": "43601 Eggendart Way",
+			"user_avatar": "https://robohash.org/mollitiaaccusamuslaborum.png?size=96x96&set=set1"
+		},
+		{
+			"id": 9,
+			"firstname": "Chelsie",
+			"lastname": "Varey",
+			"job": "Nurse Practicioner",
+			"phone": "86-(763)303-4786",
+			"address": "0634 Acker Parkway",
+			"user_avatar": "https://robohash.org/quisdeseruntpraesentium.png?size=96x96&set=set1"
+		},
+		{
+			"id": 10,
+			"firstname": "Chrissie",
+			"lastname": "Struis",
+			"job": "Help Desk Operator",
+			"phone": "92-(788)852-2772",
+			"address": "336 Hollow Ridge Way",
+			"user_avatar": "https://robohash.org/eumodiofugit.png?size=96x96&set=set1"
+		},
+		{
+			"id": 11,
+			"firstname": "Winifield",
+			"lastname": "Bonhome",
+			"job": "Chief Design Engineer",
+			"phone": "230-(722)353-9857",
+			"address": "95 Heath Alley",
+			"user_avatar": "https://robohash.org/etillumut.png?size=96x96&set=set1"
+		},
+		{
+			"id": 12,
+			"firstname": "Findlay",
+			"lastname": "Duce",
+			"job": "Senior Sales Associate",
+			"phone": "63-(936)861-8267",
+			"address": "61561 Clemons Plaza",
+			"user_avatar": "https://robohash.org/eligendiculpaqui.png?size=96x96&set=set1"
+		},
+		{
+			"id": 13,
+			"firstname": "Cornell",
+			"lastname": "Coughtrey",
+			"job": "Web Designer II",
+			"phone": "507-(778)822-7234",
+			"address": "6028 Lake View Center",
+			"user_avatar": "https://robohash.org/quoaliquidlibero.png?size=96x96&set=set1"
+
+		},
+		{
+			"id": 14,
+			"firstname": "Elisha",
+			"lastname": "Dewi",
+			"job": "Office Assistant IV",
+			"phone": "977-(480)308-3465",
+			"address": "4546 Forest Road",
+			"user_avatar": "https://robohash.org/fugalaborumnostrum.png?size=96x96&set=set1"
+		},
+		{
+			"id": 15,
+			"firstname": "Filmore",
+			"lastname": "Cuthill",
+			"job": "Information Systems Manager",
+			"phone": "351-(870)711-6324",
+			"address": "40516 Stone Corner Trail",
+			"user_avatar": "https://robohash.org/distinctioerrorinventore.png?size=96x96&set=set1"
+		},
+		{
+			"id": 16,
+			"firstname": "Raye",
+			"lastname": "Loughman",
+			"job": "Structural Engineer",
+			"phone": "62-(654)796-5827",
+			"address": "7 American Trail",
+			"user_avatar": "https://robohash.org/sitveniamquia.png?size=96x96&set=set1"
+
+		},
+		{
+			"id": 17,
+			"firstname": "Gracie",
+			"lastname": "Marney",
+			"job": "Environmental Specialist",
+			"phone": "62-(676)309-4559",
+			"address": "36 Bellgrove Way",
+			"user_avatar": "https://robohash.org/remverodicta.png?size=96x96&set=set1"
+		},
+		{
+			"id": 18,
+			"firstname": "Oriana",
+			"lastname": "Burgot",
+			"job": "Paralegal",
+			"phone": "86-(555)327-5459",
+			"address": "85571 Everett Plaza",
+			"user_avatar": "https://robohash.org/facilisquisapiente.png?size=96x96&set=set1"
+		},
+		{
+			"id": 19,
+			"firstname": "Jaquelyn",
+			"lastname": "Orrah",
+			"job": "Software Consultant",
+			"phone": "62-(342)487-1692",
+			"address": "078 Moland Crossing",
+			"user_avatar": "https://robohash.org/voluptatemcorporismolestias.png?size=96x96&set=set1"
+		},
+		{
+			"id": 20,
+			"firstname": "Nessa",
+			"lastname": "Rapp",
+			"job": "Programmer II",
+			"phone": "81-(271)945-8548",
+			"address": "38 Pearson Terrace",
+			"user_avatar": "https://robohash.org/cumquevoluptatibuset.png?size=96x96&set=set1"
+		},
+		{
+			"id": 21,
+			"firstname": "Hephzibah",
+			"lastname": "Olford",
+			"job": "Internal Auditor",
+			"phone": "55-(518)918-8618",
+			"address": "1 Hallows Plaza",
+			"user_avatar": "https://robohash.org/quialiasillum.png?size=96x96&set=set1"
+		},
+		{
+			"id": 22,
+			"firstname": "Ava",
+			"lastname": "Camm",
+			"job": "Mechanical Systems Engineer",
+			"phone": "1-(434)908-9721",
+			"address": "8401 Hazelcrest Way",
+			"user_avatar": "https://robohash.org/eaabqui.png?size=96x96&set=set1"
+		},
+		{
+			"id": 23,
+			"firstname": "Doralynne",
+			"lastname": "Wanstall",
+			"job": "Staff Scientist",
+			"phone": "372-(303)827-3173",
+			"address": "13615 Larry Court",
+			"user_avatar": "https://robohash.org/debitisutvoluptates.png?size=96x96&set=set1"
+		},
+		{
+			"id": 24,
+			"firstname": "Cariotta",
+			"lastname": "Butterfint",
+			"job": "Quality Control Specialist",
+			"phone": "86-(681)430-1313",
+			"address": "3 Banding Way",
+			"user_avatar": "https://robohash.org/odiocorporisquo.png?size=96x96&set=set1"
+		},
+		{
+			"id": 25,
+			"firstname": "Bram",
+			"lastname": "Manley",
+			"job": "Safety Technician III",
+			"phone": "86-(839)504-4552",
+			"address": "4967 Farmco Junction",
+			"user_avatar": "https://robohash.org/voluptatesdoloremqueet.png?size=96x96&set=set1"
+		},
+		{
+			"id": 26,
+			"firstname": "Paolo",
+			"lastname": "Molines",
+			"job": "VP Sales",
+			"phone": "258-(589)590-2643",
+			"address": "9955 Shasta Parkway",
+			"user_avatar": "https://robohash.org/nemofacereblanditiis.png?size=96x96&set=set1"
+		},
+		{
+			"id": 27,
+			"firstname": "Kikelia",
+			"lastname": "Charman",
+			"job": "Business Systems Development Analyst",
+			"phone": "86-(902)784-6044",
+			"address": "8936 Rusk Avenue",
+			"user_avatar": "https://robohash.org/etquiquos.png?size=96x96&set=set1"
+		},
+		{
+			"id": 28,
+			"firstname": "Collie",
+			"lastname": "Castleman",
+			"job": "Senior Editor",
+			"phone": "62-(509)769-9269",
+			"address": "4 Cottonwood Trail",
+			"user_avatar": "https://robohash.org/estsitaperiam.png?size=96x96&set=set1"
+		},
+		{
+			"id": 29,
+			"firstname": "Cory",
+			"lastname": "Orrocks",
+			"job": "Product Engineer",
+			"phone": "62-(122)704-8124",
+			"address": "1365 Fallview Lane",
+			"user_avatar": "https://robohash.org/voluptatibusblanditiisfacilis.png?size=96x96&set=set1"
+		},
+		{
+			"id": 30,
+			"firstname": "Cody",
+			"lastname": "Gough",
+			"job": "Geologist III",
+			"phone": "251-(112)910-0263",
+			"address": "04 Elka Alley",
+			"user_avatar": "https://robohash.org/quiaexplicabocumque.png?size=96x96&set=set1"
+		}
+	]
+}
