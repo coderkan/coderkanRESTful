@@ -29,7 +29,7 @@ public class LoginInterceptor implements Interceptor{
         String password = uri.getQueryParameter("password");
 
         // if Correct User build Correct Response
-        if(username.equals("yemeksepeti") && password.equals("1234")){
+        if(username.equals("coderkan") && password.equals("1234")){
 
             response = new Response.Builder()
                     .code(200)
@@ -40,7 +40,7 @@ public class LoginInterceptor implements Interceptor{
                     .addHeader("content-type","application/json")
                     .build();
 
-        }else if(username.equals("yemeksepeti") && !password.equals("1234")){
+        }else if(username.equals("coderkan") && !password.equals("1234")){
 
             String msg ="Password Incorrect";
 
