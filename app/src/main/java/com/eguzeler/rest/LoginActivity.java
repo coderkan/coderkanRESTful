@@ -3,6 +3,7 @@ package com.eguzeler.rest;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
@@ -14,9 +15,12 @@ import android.widget.Toast;
 import com.eguzeler.rest.presenters.LoginPresenter;
 import com.eguzeler.rest.view.LoginView;
 
+import javax.inject.Inject;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import retrofit2.Retrofit;
 
 public class LoginActivity extends AppCompatActivity implements LoginView {
 
@@ -34,13 +38,24 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
 
     private LoginPresenter mLoginPresenter = null;
 
+
+    @Inject
+    Retrofit retrofit;
+
+    private Context context;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         ButterKnife.bind(this);
+        ((CoderkanApplication) getApplication()).getNetworkComponent().inject(this);
+
+        this.context = getApplicationContext();
+
         if(mLoginPresenter == null)
-            mLoginPresenter = new LoginPresenter(getApplicationContext(), this);
+            mLoginPresenter = new LoginPresenter(retrofit, this);
     }
 
     @OnClick(R.id.email_sign_in_button) void loginClick(){
@@ -132,6 +147,11 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
     @Override
     public String getPasswordText() {
         return mPasswordView.getText().toString();
+    }
+
+    @Override
+    public Context getContext() {
+        return this.context;
     }
 
 }
