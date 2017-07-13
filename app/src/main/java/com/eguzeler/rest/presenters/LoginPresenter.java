@@ -14,10 +14,8 @@ import retrofit2.Retrofit;
 public class LoginPresenter {
 
     private LoginView mLoginView = null;
-    private Retrofit retrofit = null;
 
-    public LoginPresenter(Retrofit retrofit, LoginView view){
-        this.retrofit = retrofit;
+    public LoginPresenter(LoginView view){
         this.mLoginView = view;
     }
 
@@ -50,9 +48,8 @@ public class LoginPresenter {
 
     private void loginControl(final String username, final String password) {
 
-        RetrofitInterface service = retrofit.create(RetrofitInterface.class);
 
-        Call<LoginUser> loginUserCall = service.getLoginUser(username, password);
+        Call<LoginUser> loginUserCall = this.mLoginView.getRetrofitService().getLoginUser(username, password);
 
         loginUserCall.enqueue(new Callback<LoginUser>() {
             @Override

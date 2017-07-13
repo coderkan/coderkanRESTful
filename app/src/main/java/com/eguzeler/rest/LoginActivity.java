@@ -13,6 +13,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.eguzeler.rest.presenters.LoginPresenter;
+import com.eguzeler.rest.rest.RetrofitInterface;
 import com.eguzeler.rest.view.LoginView;
 
 import javax.inject.Inject;
@@ -40,7 +41,7 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
 
 
     @Inject
-    Retrofit retrofit;
+    RetrofitInterface retrofitService;
 
     private Context context;
 
@@ -55,7 +56,7 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
         this.context = getApplicationContext();
 
         if(mLoginPresenter == null)
-            mLoginPresenter = new LoginPresenter(retrofit, this);
+            mLoginPresenter = new LoginPresenter(this);
     }
 
     @OnClick(R.id.email_sign_in_button) void loginClick(){
@@ -137,6 +138,11 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
             mUserNameView.requestFocus();
         else if(which == 2) // password focus
             mPasswordView.requestFocus();
+    }
+
+    @Override
+    public RetrofitInterface getRetrofitService() {
+        return this.retrofitService;
     }
 
     @Override
