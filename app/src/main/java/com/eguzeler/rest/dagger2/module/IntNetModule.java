@@ -16,21 +16,23 @@ import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 /**
- * Created by root on 06.06.2017.
+ * Created by coderkan on 13.07.2017.
  */
 
 @Module
-public class NetworkModule {
+public class IntNetModule {
     private String mBaseURL;
+    private Interceptor mInterceptor;
 
-    public NetworkModule(String baseURL){
+    public IntNetModule(String baseURL, Interceptor interceptor){
         this.mBaseURL = baseURL;
+        this.mInterceptor = interceptor;
     }
 
     @Provides
     @Singleton
     Interceptor proveInterceptor(){
-        return new LoginInterceptor();
+        return this.mInterceptor; //new LoginInterceptor();
     }
 
     @Provides
