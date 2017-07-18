@@ -1,10 +1,15 @@
 package com.eguzeler.rest.dagger2.module;
 
+import com.eguzeler.rest.interceptors.InterceptorBus;
 import com.eguzeler.rest.interceptors.LoginInterceptor;
+import com.eguzeler.rest.interceptors.UserDetailInceptor;
+import com.eguzeler.rest.interceptors.UserInfoUpdateInterceptor;
+import com.eguzeler.rest.interceptors.UserListInterceptor;
 import com.eguzeler.rest.rest.RetrofitInterface;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
+import javax.inject.Named;
 import javax.inject.Singleton;
 
 import dagger.Module;
@@ -27,10 +32,12 @@ public class NetworkModule {
         this.mBaseURL = baseURL;
     }
 
+
     @Provides
     @Singleton
-    Interceptor proveInterceptor(){
+    Interceptor provideInterceptor(){
         return new LoginInterceptor();
+        //return InterceptorBus.getInstance().getInterceptor();
     }
 
     @Provides

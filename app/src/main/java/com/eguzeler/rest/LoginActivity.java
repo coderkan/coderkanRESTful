@@ -12,15 +12,19 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.eguzeler.rest.interceptors.InterceptorBus;
+import com.eguzeler.rest.interceptors.LoginInterceptor;
 import com.eguzeler.rest.presenters.LoginPresenter;
 import com.eguzeler.rest.rest.RetrofitInterface;
 import com.eguzeler.rest.view.LoginView;
 
 import javax.inject.Inject;
+import javax.inject.Named;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import okhttp3.Interceptor;
 import retrofit2.Retrofit;
 
 public class LoginActivity extends AppCompatActivity implements LoginView {
@@ -40,6 +44,9 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
     private LoginPresenter mLoginPresenter = null;
 
 
+    //@Inject
+    //InterceptorBus loginInterceptor;
+
     @Inject
     RetrofitInterface retrofitService;
 
@@ -52,11 +59,12 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
         setContentView(R.layout.activity_login);
         ButterKnife.bind(this);
         ((CoderkanApplication) getApplication()).getNetworkComponent().inject(this);
-
+        LoginInterceptor interceptor = (LoginInterceptor)((CoderkanApplication) getApplication()).getNetworkComponent().getInterceptor();
         this.context = getApplicationContext();
 
         if(mLoginPresenter == null)
             mLoginPresenter = new LoginPresenter(this);
+
     }
 
     @OnClick(R.id.email_sign_in_button) void loginClick(){
@@ -142,6 +150,7 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
 
     @Override
     public RetrofitInterface getRetrofitService() {
+        //this.loginInterceptor.setInterceptor(new LoginInterceptor());
         return this.retrofitService;
     }
 

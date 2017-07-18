@@ -46,7 +46,7 @@ public class LoginPresenterTest {
     @Before
     public void setUp() throws Exception {
         MockitoAnnotations.initMocks(this);
-        presenter = new LoginPresenter(context, view);
+        presenter = new LoginPresenter(view);
     }
 
     @Test

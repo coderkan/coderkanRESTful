@@ -8,9 +8,13 @@ import com.eguzeler.rest.dagger2.module.NetworkModule;
 import javax.inject.Singleton;
 
 import dagger.Component;
+import okhttp3.Interceptor;
 
 @Singleton
 @Component(modules = { ApplicationModule.class, NetworkModule.class})
 public interface NetworkComponent {
     void inject(LoginActivity loginActivity);
+
+    Interceptor getInterceptor();
+
 }
